@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function Contact() {
-  // Detector de pantalla móvil en tiempo real
+  
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function Contact() {
           ...styles.mainTitle,
           fontSize: isMobile ? "2rem" : "2.8rem"
         }}>
-          Visítanos en nuestra <span style={styles.highlight}>clínica</span>
+          Visítanos Nuestra <span style={styles.highlight}>clínica</span>
         </h2>
       </div>
 
