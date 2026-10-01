@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 function Dentists() {
   const team = [
     {
-      name: "Dr. Maria de todos los angeles",
+      name: "Dr. Maria de todos los angels",
       role: "Ortodoncista",
       specialty: "Diseño de Sonrisas",
       img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e"
