@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 function Dentists() {
   const team = [
     {
-      name: "Dr. Maria Pérez",
+      name: "Dr. Maria de todos los angeles",
       role: "Ortodoncista",
       specialty: "Diseño de Sonrisas",
       img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e"
@@ -33,7 +33,7 @@ function Dentists() {
   }, []);
 
   return (
-    <section id="nosotros" style={{
+    <section id="nosotros " style={{
       ...styles.container,
       padding: isMobile ? "60px 20px" : "120px 5%"
     }}>
