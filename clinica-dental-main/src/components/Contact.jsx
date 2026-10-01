@@ -25,7 +25,7 @@ function Contact() {
           ...styles.mainTitle,
           fontSize: isMobile ? "2rem" : "2.8rem"
         }}>
-          Visítanos Nuestra <span style={styles.highlight}>clínica</span>
+          Visíta Nuestra <span style={styles.highlight}>clínica</span>
         </h2>
       </div>
 
